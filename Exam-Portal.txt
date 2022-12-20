@@ -1,0 +1,4 @@
+Backend- Spring boot, Intellij IDEA
+Frontend- Angular, VS Code
+	1. install angular by >npm install -g @angular/cli
+DB- MySQL, MySQL WorkBench
