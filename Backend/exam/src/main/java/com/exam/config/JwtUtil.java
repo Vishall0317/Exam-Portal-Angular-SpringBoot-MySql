@@ -1,4 +1,4 @@
-package com.jwt.auth.helper;
+package com.exam.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -23,7 +23,7 @@ util class for jwt
 public class JwtUtil implements Serializable {
 
     public static final long ACCESS_TOKEN_VALIDITY_SECONDS = 5*60;
-    public static final String SIGNING_KEY = "secretkey123";
+    public static final String SIGNING_KEY = "examportal";
     public static final String TOKEN_PREFIX = "Bearer ";
     public static final String HEADER_STRING = "Authorization";
 
